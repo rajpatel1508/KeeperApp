@@ -1,3 +1,8 @@
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Montserrat', sans-serif;
+  opacity: 1; /* Firefox */
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -50,7 +55,7 @@ footer p{
 
 .note h1{
     font-size: 1.1em;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 .note p{
@@ -59,3 +64,53 @@ footer p{
     white-space: pre-wrap;
     overflow-wrap: break-word;
 }
+
+form{
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+form .input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+form button{
+    color: #eee;
+    background-color: #f5ba13;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 50%;
+    padding: 15px;
+    display: block;
+    border-style: none;
+    float: right;
+}
+
+button:hover{
+    color: #f5ba13;   
+    border-width: 1px;
+    border-color: #f5ba13;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 15px;
+    display: block;
+    float: right;
+}
+
+button{
+    color: #f5ba13;   
+    background: none;
+    border: none;
+    padding: 15px;
+    display: block;
+    float: right;
+}
+
